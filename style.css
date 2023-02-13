@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kalam:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Oleo+Script&family=Shrikhand&family=Signika+Negative:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(./images/pexels-anil-sharma-12620880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+}
+ul{
+    margin-left: 55px;
+    overflow: hidden;
+}
+ul li{
+    list-style-type: none;
+    padding: 20px;
+    float: left;
+}
+ul li a{
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+#btn1{
+    margin-left: 15px;
+}
+#btn2{
+    margin-left: 75px;
+}
+#btn1:hover,#btn2:hover{
+    background-color: black;
+    transition: all 0.4s;
+}
+nav a:hover{
+    color: springgreen;
+    transition: all 0.4s;
+}
+#btn3{
+    padding: 17px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    position: fixed;
+    text-decoration: none;
+    background-color: #27ae60;
+    color: white;
+    transition: all 5s;
+}
+.div2{
+    height: 321px;
+    color: white;
+    text-align: center;
+}
+.div2 h1{
+    text-transform: capitalize;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 60px;
+    margin-top: 240px;
+}#para1{
+    font-size: 25px;
+}
+.heading{
+    text-align: center;
+    color:blue;
+    font-family: 'Oleo Script', cursive;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    background-color: lightseagreen;
+}
+header h2{
+    margin-top: 40px;
+}
+.container{
+    background-color: #27ae60;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    row-gap: 100px;
+    column-gap: 100px;
+    padding: 100px;
+}
+.div3{
+    background-color: aqua;
+    /* padding: 30px; */
+    height: 320px;
+}
+.div4{
+    background-color: red;
+    padding: 30px;
+    height: 320px;
+}
+.div5{
+    background-color: blue;
+    padding: 30px;
+    height: 320px;
+}
+.div6{
+    background-color: green;
+    padding: 30px;
+    height: 320px;
+}.div7{
+    background-color: yellow;
+    padding: 30px;
+    height: 320px;
+}
+.div8{
+    background-color: springgreen;
+    padding: 30px;
+    height: 320px;
+}
+.div9{
+    background-color: chocolate;
+    padding: 30px;
+    height: 320px;
+}
+.div10{
+    background-color: lightgray;
+    padding: 30px;
+    height: 320px;
+}
+.div11{
+    background-color:crimson;
+    padding: 30px;
+    height: 320px;
+}
+.div12{
+    background-color:darkkhaki;
+    padding: 30px;
+    height: 320px;
+}
+.div13{
+    background-color: darkseagreen;
+    padding: 30px;
+    height: 320px;
+}
+.div14{
+    background-color: gold;
+    padding: 30px;
+    height: 320px;
+}
+.div15{
+    background-color:blueviolet;
+    padding: 30px;
+    height: 320px;
+}
+.div16{
+    background-color:orange;
+    padding: 30px;
+    height: 320px;
+}
+.div17{
+    background-color: black;
+    padding: 30px;
+    height: 320px;
+}
